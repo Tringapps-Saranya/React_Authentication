@@ -6,7 +6,7 @@ export const Home = () =>{
         <div class='homediv'>
            Welcome to our Shop
            <div>
-           <button class='button' onClick={() => navigate('login')}>Login</button>
+           <button class="buttons" onClick={() => navigate('login')}>Login</button>
            <Outlet />
            </div>
         </div>
