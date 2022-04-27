@@ -19,10 +19,11 @@ export const Login = () => {
     }
     
   return (
-    <div>
-        <input type='text' placeholder='username' onChange={(e =>setUser(e.target.value))}></input>  
-        <button  onClick ={handleLogin}>Login</button>  
+      <div class="login">
+           <input id="inputbox" type='text' placeholder='username' onChange={(e =>setUser(e.target.value))}></input>  <br /><br /><br />
+           <button class="button1"  onClick ={handleLogin}>Login</button> 
         <Outlet />    
     </div>
   )
 }
+
