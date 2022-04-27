@@ -11,10 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 .homediv{
   text-align: center;
   margin-top: 30px;
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 40px;
   background-color:burlywood;
   margin-left: 280px;
@@ -22,7 +23,7 @@ code {
   border-radius: 5px;
   padding: 10px;
 }
-.button{
+.buttons{
   background-color: crimson;
   width: 10%;
   padding: 9px;
@@ -41,7 +42,6 @@ nav a{
   margin-right: 32px;
   color:#fff;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
   font-size: 23px;
 }
 nav a.active{
@@ -66,13 +66,64 @@ input{
 #linkkurti{
   font-size:20px;
   margin-left: 500px;
-  color: blue;
+  color: crimson;
 }
 #linkwatch{
   font-size:20px;
   margin-left: 150px;
-  color: blue;
+  color: crimson;
 }
 .profile{
   text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top : 50px;
+  padding: 30px;
+  margin-left: 130px;
+  margin-right: 130px;
+  background-color: burlywood;
 }
+.productdiv{
+  background-color: burlywood;
+  margin-left: 130px;
+  margin-top: 70px;
+  padding: 60px;
+  margin-right: 130px;
+}
+.login{
+  background-color:burlywood;
+  padding: 50px;
+  margin-left: 70px;
+  margin-right: 90px;
+  margin-top: 40px;
+}
+.button1{
+  background-color: crimson;
+  width: 10%;
+  padding: 9px;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  font-style: italic;
+  margin-left: 550px;
+  margin-top : 20px;
+}
+.inputbox{
+   border-radius: 5px;
+   font-size: 22px;
+   background-color: crimson;
+}
+.button2{
+  background-color: crimson;
+  width: 10%;
+  padding: 9px;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 20px;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
