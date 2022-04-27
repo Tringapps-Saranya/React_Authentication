@@ -14,8 +14,10 @@ export const Profilepage = () => {
   return (auth.user &&
     <div class="profile">
         
-        Welcome {auth.user}
-        <button onClick={handleLogout}>Logout</button>
+        Welcome {auth.user}!
+        <div>
+        <button class="button2" onClick={handleLogout}>Logout</button>
+        </div>
     </div>
   )
 }
