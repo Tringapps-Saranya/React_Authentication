@@ -1,5 +1,5 @@
-import { useNavigate } from "react-router-dom";
-import { Outlet } from "react-router-dom";
+import { useNavigate , Outlet} from "react-router-dom";
+
 export const Home = () =>{
     const navigate = useNavigate();
     return(
