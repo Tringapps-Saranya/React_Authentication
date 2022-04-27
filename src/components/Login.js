@@ -1,7 +1,6 @@
-import { useNavigate,Outlet} from 'react-router-dom'
+import { useNavigate, Outlet, Navigate} from 'react-router-dom'
 import { useState } from 'react';
 import {useAuth} from './Auth';
-import { Navigate } from 'react-router-dom'
 
 export const Login = () => {
     const [user,setUser] = useState('')
